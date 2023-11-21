@@ -34,7 +34,7 @@ for (j = 0; j < n - 1 - i; j++)
 if (array[j] > array[j + 1])
 {
 swap(array + j, array + j + 1);
-print_array(array,size);
+print_array(array, size);
 flag = 1;
 }
 }
